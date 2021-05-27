@@ -11,3 +11,5 @@ Creating 5 tables:
 5. bugreport(bugNo, bugCode, projectId, empCode, status, bugDesc)
 
 Directly keep on copying and pasting each line(for least errors) of the bds.txt file in command line.
+
+After database creation run the python file index.py and hence the project is ready to use.
