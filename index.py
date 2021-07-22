@@ -5,7 +5,7 @@ def user_login():
     global empcode
     empcode=input("Enter Empcode:")
     emppassword=input("Enter Password:")
-    conn=db.connect("127.0.0.1","root","mayank","bds")
+    conn=db.connect(host="localhost",user="root",password="mayank",database="bds")
     cur=conn.cursor()
     qry="""select empname,role
            from employee
